@@ -6,6 +6,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -31,6 +32,7 @@ public class CreativeTabInit {
                     .displayItems((displayParams, output) -> {
 
                         output.accept(ItemInit.TEST_ITEM.get());
+                        output.accept(ItemInit.TEST_BLOCK.get());
 
 
 
