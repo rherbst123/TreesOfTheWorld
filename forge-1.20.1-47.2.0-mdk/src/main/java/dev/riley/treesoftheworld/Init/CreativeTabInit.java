@@ -1,6 +1,7 @@
 package dev.riley.treesoftheworld.Init;
 
 
+import dev.riley.treesoftheworld.TreesOfTheWorld;
 import net.minecraft.client.gui.components.tabs.Tab;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -19,9 +20,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
-@Mod.EventBusSubscriber(modid = dev.riley.treesoftheworld.Init.TreesOfTheWorld.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = TreesOfTheWorld.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CreativeTabInit {
-    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, dev.riley.treesoftheworld.Init.TreesOfTheWorld.MODID);
+    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TreesOfTheWorld.MODID);
 
 
     public static final List<Supplier<? extends ItemLike>> TREES_OF_THE_WORLD_ITEMS = new ArrayList<>();
