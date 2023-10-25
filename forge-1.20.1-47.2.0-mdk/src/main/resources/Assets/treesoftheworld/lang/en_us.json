@@ -1,4 +1,6 @@
 {
   "item.treesoftheworld.test_item": "Lil Testy test",
-  "block.treesoftheworld.test_block": "Big Testy test"
+  "block.treesoftheworld.test_block": "Big Testy test",
+
+  "itemGroup.treesoftheworld.trees_of_the_world_tab": "Trees Of The World"
 }
