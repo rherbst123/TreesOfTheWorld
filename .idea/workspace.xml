@@ -5,11 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ded212a-e399-48c6-b255-c60c7aca1d45" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModLogItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModPlankItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/maple_leaves.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/maple_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/maple_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/stripped_maple_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/maple_leaves.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/maple_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/maple_log_horizontal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/maple_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/stripped_maple_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/stripped_maple_log_horizontal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/maple_leaves.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/maple_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/maple_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/stripped_maple_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/maple_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/maple_log_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/maple_wood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/stripped_maple_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/stripped_maple_log_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/minecraft/tags/blocks/needs_wooden_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/test_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/BlockInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/BlockInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/CreativeTabInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/CreativeTabInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ItemInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/TreesOfTheWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/TreesOfTheWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +100,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/riley/OneDrive/Desktop/CodeForMe/Modding/1.20BoysMod"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/riley/OneDrive/Desktop/CodeForMe/Modding/1.20BoysMod&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\riley\OneDrive\Documents\GitHub\TreesOfTheWorld\forge-1.20.1-47.2.0-mdk\src\main\resources\Assets\treesoftheworld\textures\block" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.forge-1.20.1-47.2.0-mdk [runClient]">
+    <configuration name="forge-1.20.1-47.2.0-mdk [genVSCodeRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="genVSCodeRuns" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="forge-1.20.1-47.2.0-mdk [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,6 +159,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.forge-1.20.1-47.2.0-mdk [runClient]" />
+        <item itemvalue="Gradle.forge-1.20.1-47.2.0-mdk [genVSCodeRuns]" />
       </list>
     </recent_temporary>
   </component>

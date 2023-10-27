@@ -1,6 +1,12 @@
 {
   "item.treesoftheworld.test_item": "Lil Testy test",
   "block.treesoftheworld.test_block": "Big Testy test",
+  "block.treesoftheworld.maple_log": "Maple Log",
+  "block.treesoftheworld.stripped_maple_log": "Stripped Maple Log",
+  "block.treesoftheworld.maple_wood": "Maple Wood",
+  "block.treesoftheworld.maple_leaves": "Maple Leaves",
+
+
 
   "itemGroup.trees_of_the_world_tab": "Trees Of The World"
 

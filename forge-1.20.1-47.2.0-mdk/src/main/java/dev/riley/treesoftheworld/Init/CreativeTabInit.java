@@ -35,6 +35,11 @@ public class CreativeTabInit {
                         output.accept(ItemInit.TEST_ITEM.get());
                         output.accept(ItemInit.TEST_BLOCK.get());
 
+                        output.accept(ItemInit.MAPLE_LOG.get());
+                        output.accept(ItemInit.STRIPPED_MAPLE_LOG.get());
+                        output.accept(ItemInit.MAPLE_WOOD.get());
+                        output.accept(ItemInit.MAPLE_LEAVES.get());
+
 
 
                     })

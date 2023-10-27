@@ -18,6 +18,20 @@ public class ItemInit {
     public static final RegistryObject<BlockItem>TEST_BLOCK = ITEMS.register("test_block",
             () -> new BlockItem(BlockInit.TEST_BLOCK.get(), new Item.Properties()));
 
+    public static final RegistryObject<BlockItem>MAPLE_LOG = ITEMS.register("maple_log",
+            () -> new BlockItem(BlockInit.MAPLE_LOG.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>STRIPPED_MAPLE_LOG = ITEMS.register("stripped_maple_log",
+            () -> new BlockItem(BlockInit.STRIPPED_MAPLE_LOG.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>MAPLE_WOOD = ITEMS.register("maple_wood",
+            () -> new BlockItem(BlockInit.MAPLE_WOOD.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>MAPLE_LEAVES = ITEMS.register("maple_leaves",
+            () -> new BlockItem(BlockInit.MAPLE_LEAVES.get(), new Item.Properties()));
+
+
+
 
 
 
