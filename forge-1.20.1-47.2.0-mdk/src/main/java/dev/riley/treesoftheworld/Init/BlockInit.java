@@ -1,14 +1,19 @@
 package dev.riley.treesoftheworld.Init;
 
+import dev.riley.treesoftheworld.Init.ModItems.MapleTreeGrower;
 import dev.riley.treesoftheworld.Init.ModItems.ModLogItems;
 import dev.riley.treesoftheworld.Init.ModItems.ModPlankItems;
+import dev.riley.treesoftheworld.Init.ModItems.ModSaplingItem;
 import dev.riley.treesoftheworld.TreesOfTheWorld;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.grower.OakTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -49,9 +54,7 @@ public class BlockInit {
             });
 
     public static final RegistryObject<Block> MAPLE_SAPLING = BLOCKS.register("maple_sapling",
-            () -> new ModSaplingItem(Bl))
-
-
+            () -> new SaplingBlock(new MapleTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
 

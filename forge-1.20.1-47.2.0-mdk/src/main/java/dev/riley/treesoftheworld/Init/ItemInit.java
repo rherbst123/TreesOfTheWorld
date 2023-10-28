@@ -30,6 +30,9 @@ public class ItemInit {
     public static final RegistryObject<BlockItem>MAPLE_LEAVES = ITEMS.register("maple_leaves",
             () -> new BlockItem(BlockInit.MAPLE_LEAVES.get(), new Item.Properties()));
 
+    public static final RegistryObject<BlockItem>MAPLE_SAPLING = ITEMS.register("maple_sapling",
+            () -> new BlockItem(BlockInit.MAPLE_SAPLING.get(), new Item.Properties()));
+
 
 
 
