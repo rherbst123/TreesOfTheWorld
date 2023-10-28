@@ -48,6 +48,9 @@ public class BlockInit {
                 }
             });
 
+    public static final RegistryObject<Block> MAPLE_SAPLING = BLOCKS.register("maple_sapling",
+            () -> new ModSaplingItem(Bl))
+
 
 
 

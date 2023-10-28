@@ -20,6 +20,7 @@ public class TreesOfTheWorld {
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
         CreativeTabInit.TABS.register(bus);
+
     }
 
 }
