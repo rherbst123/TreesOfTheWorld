@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ded212a-e399-48c6-b255-c60c7aca1d45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/MapleTreeGrower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModConfiguredFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/maple_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/maple_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/maple_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/stripped_maple_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/BlockInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/BlockInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/CreativeTabInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/CreativeTabInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ItemInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModSaplingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModSaplingItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +92,6 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="forge-1.20.1-47.2.0-mdk [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -125,7 +113,6 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
