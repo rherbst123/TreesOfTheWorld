@@ -11,9 +11,6 @@ public class ModSaplingItem extends BushBlock  {
         super(properties);
     }
 
-    @Override
-    public boolean canBeReplaced(BlockState bstate, Fluid fluid) {
-        return super.canBeReplaced(treesoftheworld.blocks.MAPLE_SAPLING, p_60536_);
-    }
+
 
 }
