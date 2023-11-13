@@ -29,7 +29,7 @@ public class CreativeTabInit {
     public static final RegistryObject<CreativeModeTab> TREES_OF_THE_WORLD_TAB = TABS.register("trees_of_the_world_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.trees_of_the_world_tab"))
-                    .icon(ItemInit.TEST_ITEM.get()::getDefaultInstance)
+                    .icon(ItemInit.MAPLE_SAPLING.get()::getDefaultInstance)
                     .displayItems((displayParams, output) -> {
 
                         output.accept(ItemInit.TEST_ITEM.get());

@@ -18,15 +18,17 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class BlockInit {
+public class BlockInit extends Block {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TreesOfTheWorld.MODID);
 
     public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
 
-    public static final RegistryObject<Block> MAPLE_LOG = BLOCKS.register("maple_log",
-            () -> new ModLogItems(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+
+    //Maple Stuuff
+    public static final RegistryObject<ModLogItems> MAPLE_LOG = BLOCKS.register("maple_log",
+            () -> new ModLogItems(Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> STRIPPED_MAPLE_LOG = BLOCKS.register("stripped_maple_log",
             () -> new ModLogItems(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)));
@@ -35,7 +37,7 @@ public class BlockInit {
             () -> new ModPlankItems(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
 
 
-    public static final RegistryObject<Block> MAPLE_LEAVES = BLOCKS.register("maple_leaves",
+    public static final RegistryObject<LeavesBlock> MAPLE_LEAVES = BLOCKS.register("maple_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)){
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
@@ -57,5 +59,7 @@ public class BlockInit {
             () -> new SaplingBlock(new MapleTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
-
+    public BlockInit(Properties p_49795_) {
+        super(p_49795_);
+    }
 }
