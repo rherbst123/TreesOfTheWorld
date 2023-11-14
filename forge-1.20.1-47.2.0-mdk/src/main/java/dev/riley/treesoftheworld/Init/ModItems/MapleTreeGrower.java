@@ -15,7 +15,7 @@ public class MapleTreeGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected ResourceKey<ConfiguredFeature<?, ?>> getConfiguredFeature(@NotNull RandomSource randomSource, boolean bool) {
-            return ModTreeFeatures.MAPLE;
+            return ModConfiguredFeatures.MAPLE;
         }
     }
 
