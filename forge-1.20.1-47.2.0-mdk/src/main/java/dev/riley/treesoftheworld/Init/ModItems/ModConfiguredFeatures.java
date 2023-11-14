@@ -18,9 +18,10 @@ import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlac
 
 public class ModConfiguredFeatures {
 
+    //Maple key for tree growers
     public static final ResourceKey<ConfiguredFeature<?, ?>> MAPLE = registerKey("maple");
 
-
+    //Configuration
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         register(context, MAPLE, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(BlockInit.MAPLE_LOG.get()),

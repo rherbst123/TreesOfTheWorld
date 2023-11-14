@@ -37,6 +37,8 @@ public class BlockInit extends Block {
             () -> new ModPlankItems(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
 
 
+
+    //leaves, copy this for each one
     public static final RegistryObject<LeavesBlock> MAPLE_LEAVES = BLOCKS.register("maple_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)){
                 @Override
@@ -59,6 +61,10 @@ public class BlockInit extends Block {
             () -> new SaplingBlock(new MapleTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
+
+
+
+    //not sure why i need this but its there
     public BlockInit(Properties p_49795_) {
         super(p_49795_);
     }
