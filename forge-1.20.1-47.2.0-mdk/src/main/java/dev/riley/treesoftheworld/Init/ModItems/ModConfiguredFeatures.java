@@ -25,10 +25,10 @@ public class ModConfiguredFeatures {
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         register(context, MAPLE, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(BlockInit.MAPLE_LOG.get()),
-                new StraightTrunkPlacer(5, 4, 3),
+                new StraightTrunkPlacer(8, 5, 4),
 
                 BlockStateProvider.simple(BlockInit.MAPLE_LEAVES.get()),
-                new BlobFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2), 3),
+                new BlobFoliagePlacer(ConstantInt.of(1), ConstantInt.of(1), 5),
 
                 new TwoLayersFeatureSize(1, 0, 2)).build());
 

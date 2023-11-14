@@ -32,8 +32,7 @@ public class CreativeTabInit {
                     .icon(ItemInit.MAPLE_SAPLING.get()::getDefaultInstance)
                     .displayItems((displayParams, output) -> {
 
-                        output.accept(ItemInit.TEST_ITEM.get());
-                        output.accept(ItemInit.TEST_BLOCK.get());
+
 
                         output.accept(ItemInit.MAPLE_LOG.get());
                         output.accept(ItemInit.STRIPPED_MAPLE_LOG.get());
