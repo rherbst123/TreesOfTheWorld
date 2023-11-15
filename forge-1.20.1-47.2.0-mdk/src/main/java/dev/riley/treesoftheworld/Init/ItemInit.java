@@ -33,6 +33,9 @@ public class ItemInit {
     public static final RegistryObject<BlockItem>MAPLE_SAPLING = ITEMS.register("maple_sapling",
             () -> new BlockItem(BlockInit.MAPLE_SAPLING.get(), new Item.Properties()));
 
+    public static final RegistryObject<BlockItem>MAPLE_FENCE = ITEMS.register("maple_fence",
+            () -> new BlockItem(BlockInit.MAPLE_FENCE.get(), new Item.Properties()));
+
 
 
 

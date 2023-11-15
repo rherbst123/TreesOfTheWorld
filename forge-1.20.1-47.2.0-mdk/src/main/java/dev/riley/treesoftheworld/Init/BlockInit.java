@@ -36,6 +36,9 @@ public class BlockInit extends Block {
     public static final RegistryObject<Block> MAPLE_WOOD = BLOCKS.register("maple_wood",
             () -> new ModPlankItems(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
 
+    public static final RegistryObject<Block> MAPLE_FENCE = BLOCKS.register("maple_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE)));
+
 
 
     //leaves, copy this for each one
