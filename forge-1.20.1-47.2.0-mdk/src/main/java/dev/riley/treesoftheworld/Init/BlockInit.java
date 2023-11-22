@@ -1,9 +1,11 @@
 package dev.riley.treesoftheworld.Init;
 
-import dev.riley.treesoftheworld.Init.ModItems.MapleTreeGrower;
+
 import dev.riley.treesoftheworld.Init.ModItems.ModLogItems;
 import dev.riley.treesoftheworld.Init.ModItems.ModPlankItems;
 import dev.riley.treesoftheworld.Init.ModItems.ModSaplingItem;
+import dev.riley.treesoftheworld.Init.ModItems.TreeGrowers.MapleTreeGrower;
+import dev.riley.treesoftheworld.Init.ModItems.TreeGrowers.WillowTreeGrower;
 import dev.riley.treesoftheworld.TreesOfTheWorld;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -37,14 +39,6 @@ public class BlockInit extends Block {
     public static final RegistryObject<Block> MAPLE_WOOD = BLOCKS.register("maple_wood",
             () -> new ModPlankItems(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
 
-    public static final RegistryObject<Block> MAPLE_FENCE = BLOCKS.register("maple_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE)));
-
-
-
-
-
-
     //leaves, copy this for each one
     public static final RegistryObject<LeavesBlock> MAPLE_LEAVES = BLOCKS.register("maple_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)){
@@ -66,6 +60,29 @@ public class BlockInit extends Block {
 
     public static final RegistryObject<Block> MAPLE_SAPLING = BLOCKS.register("maple_sapling",
             () -> new SaplingBlock(new MapleTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+
+
+    //Willow Stuff!!
+    public static final RegistryObject<Block> WILLOW_LOG = BLOCKS.register("willow_log",
+            () -> new ModLogItems(Properties.copy(Blocks.OAK_LOG)));
+
+    public static final RegistryObject<Block> STRIPPED_WILLOW_LOG = BLOCKS.register("stripped_willow_log",
+            () -> new ModLogItems(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)));
+
+    public static final RegistryObject<Block> WILLOW_WOOD = BLOCKS.register("willow_wood",
+            () -> new ModPlankItems(Properties.copy(Blocks.OAK_WOOD)));
+
+    public static final RegistryObject<SaplingBlock> WILLOW_SAPLING = BLOCKS.register("willow_sapling",
+            () -> new SaplingBlock(new WillowTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+
+    public static final RegistryObject<LeavesBlock> WILLOW_LEAVES = BLOCKS.register("willow_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+
+
+
+
 
 
 

@@ -18,6 +18,9 @@ public class ItemInit {
     public static final RegistryObject<BlockItem>TEST_BLOCK = ITEMS.register("test_block",
             () -> new BlockItem(BlockInit.TEST_BLOCK.get(), new Item.Properties()));
 
+
+
+    //Maple Stuff
     public static final RegistryObject<BlockItem>MAPLE_LOG = ITEMS.register("maple_log",
             () -> new BlockItem(BlockInit.MAPLE_LOG.get(), new Item.Properties()));
 
@@ -33,8 +36,25 @@ public class ItemInit {
     public static final RegistryObject<BlockItem>MAPLE_SAPLING = ITEMS.register("maple_sapling",
             () -> new BlockItem(BlockInit.MAPLE_SAPLING.get(), new Item.Properties()));
 
-    public static final RegistryObject<BlockItem>MAPLE_FENCE = ITEMS.register("maple_fence",
-            () -> new BlockItem(BlockInit.MAPLE_FENCE.get(), new Item.Properties()));
+
+
+    //Willow Stuff
+    public static final RegistryObject<BlockItem>WILLOW_LOG = ITEMS.register("willow_log",
+            () -> new BlockItem(BlockInit.WILLOW_LOG.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>STRIPPED_WILLOW_LOG = ITEMS.register("stripped_willow_log",
+            () -> new BlockItem(BlockInit.STRIPPED_WILLOW_LOG.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>WILLOW_WOOD = ITEMS.register("willow_wood",
+            () -> new BlockItem(BlockInit.WILLOW_WOOD.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>WILLOW_LEAVES = ITEMS.register("willow_leaves",
+            () -> new BlockItem(BlockInit.WILLOW_LEAVES.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>WILLOW_SAPLING = ITEMS.register("willow_sapling",
+            () -> new BlockItem(BlockInit.WILLOW_SAPLING.get(), new Item.Properties()));
+
+
 
 
 
