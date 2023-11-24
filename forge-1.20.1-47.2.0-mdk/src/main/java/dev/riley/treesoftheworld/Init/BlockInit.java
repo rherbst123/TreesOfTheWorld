@@ -20,6 +20,7 @@ import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.NotNull;
 
 public class BlockInit extends Block {
 
@@ -55,6 +56,11 @@ public class BlockInit extends Block {
                 @Override
                 public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
                     return 30;
+                }
+
+                @Override
+                protected boolean decaying(@NotNull BlockState state) {
+                    return  state.getValue(DISTANCE) == 10;
                 }
             });
 
