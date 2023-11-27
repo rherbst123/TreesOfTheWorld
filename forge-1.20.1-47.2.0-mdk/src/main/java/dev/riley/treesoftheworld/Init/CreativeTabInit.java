@@ -41,6 +41,13 @@ public class CreativeTabInit {
                         output.accept(ItemInit.MAPLE_SAPLING.get());
 
 
+                        output.accept(ItemInit.WILLOW_LOG.get());
+                        output.accept(ItemInit.STRIPPED_WILLOW_LOG.get());
+                        output.accept(ItemInit.WILLOW_WOOD.get());
+                        output.accept(ItemInit.WILLOW_LEAVES.get());
+                        output.accept(ItemInit.WILLOW_SAPLING.get());
+
+
 
                     })
 

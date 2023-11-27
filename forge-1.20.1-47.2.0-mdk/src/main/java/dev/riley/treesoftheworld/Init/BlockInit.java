@@ -9,6 +9,8 @@ import dev.riley.treesoftheworld.Init.ModItems.TreeGrowers.WillowTreeGrower;
 import dev.riley.treesoftheworld.TreesOfTheWorld;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.grower.OakTreeGrower;
@@ -17,10 +19,12 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
+import net.minecraftforge.common.ToolAction;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 public class BlockInit extends Block {
 
@@ -71,7 +75,22 @@ public class BlockInit extends Block {
 
     //Willow Stuff!!
     public static final RegistryObject<Block> WILLOW_LOG = BLOCKS.register("willow_log",
-            () -> new ModLogItems(Properties.copy(Blocks.OAK_LOG)));
+            () -> new ModLogItems(Properties.copy(Blocks.OAK_LOG)){
+                @Nullable
+                @Override
+                public BlockState getToolModifiedState(BlockState state, UseOnContext context, ToolAction toolAction, boolean simulate) {
+                    if (context.getItemInHand().getItem() instanceof AxeItem) {
+                        if (state.is(BlockInit.WILLOW_LOG.get()  )) {
+                            return BlockInit.STRIPPED_WILLOW_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+                        }
+
+
+
+                    }
+
+                    return super.getToolModifiedState(state, context, toolAction, simulate);
+                }
+            });
 
     public static final RegistryObject<Block> STRIPPED_WILLOW_LOG = BLOCKS.register("stripped_willow_log",
             () -> new ModLogItems(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)));

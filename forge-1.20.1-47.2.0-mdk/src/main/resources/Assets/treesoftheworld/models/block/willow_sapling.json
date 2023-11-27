@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "treesoftheworld:block/maple_sapling"
+    "cross": "treesoftheworld:block/willow_sapling"
   }
 }

@@ -38,11 +38,23 @@ public class ModLogItems extends RotatedPillarBlock {
     @Override
     public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context, ToolAction toolAction, boolean simulate) {
         if (context.getItemInHand().getItem() instanceof AxeItem) {
-            if (state.is(BlockInit.MAPLE_LOG.get())) {
+            if (state.is(BlockInit.MAPLE_LOG.get()  )) {
                 return BlockInit.STRIPPED_MAPLE_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
 
-        }
+
+
+            }
+
             return super.getToolModifiedState(state, context, toolAction, simulate);
         }
+
+
+
+
+
+
     }
+
+
+

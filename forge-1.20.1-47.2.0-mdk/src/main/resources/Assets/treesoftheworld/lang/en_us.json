@@ -7,6 +7,12 @@
   "block.treesoftheworld.maple_leaves": "Maple Leaves",
   "block.treesoftheworld.maple_sapling": "Maple Sapling",
 
+  "block.treesoftheworld.willow_log": "Willow Log",
+  "block.treesoftheworld.stripped_willow_log": "Stripped Willow Log",
+  "block.treesoftheworld.willow_wood": "Willow Wood",
+  "block.treesoftheworld.willow_leaves": "Willow Leaves",
+  "block.treesoftheworld.willow_sapling": "Willow Sapling",
+
 
 
   "itemGroup.trees_of_the_world_tab": "Trees Of The World"
