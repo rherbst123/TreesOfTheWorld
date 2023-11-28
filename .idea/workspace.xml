@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ded212a-e399-48c6-b255-c60c7aca1d45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/forge/biome_modifier/add_willow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/stripped_willow_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/willow_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/willow_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/willow_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/willow_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/worldgen/configured_feature/willow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/worldgen/placed_feature/willow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/recipes/maple_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/recipes/willow_wood.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModConfiguredFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModConfiguredFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModPlacedFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModPlacedFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/TreeGrowers/WillowTreeGrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/TreeGrowers/WillowTreeGrower.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
