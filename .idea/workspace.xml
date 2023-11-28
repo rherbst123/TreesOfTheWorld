@@ -5,35 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ded212a-e399-48c6-b255-c60c7aca1d45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/stripped_willow_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/willow_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/willow_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/willow_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/blockstates/willow_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/stripped_willow_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/stripped_willow_log_horizontal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/willow_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/willow_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/willow_log_horizontal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/willow_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/willow_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/stripped_willow_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/willow_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/willow_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/willow_sapling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/item/willow_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/stripped_willow_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/stripped_willow_log_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/willow_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/willow_log_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/willow_wood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/forge/biome_modifier/add_willow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/stripped_willow_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/willow_leaves.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/willow_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/willow_sapling.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/loot_tables/blocks/willow_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/worldgen/configured_feature/willow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/data/treesoftheworld/worldgen/placed_feature/willow.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/BlockInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/BlockInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/CreativeTabInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/CreativeTabInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModLogItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModLogItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/maple_sapling.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/models/block/maple_sapling.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/willow_sapling.png" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/resources/Assets/treesoftheworld/textures/block/willow_sapling.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModConfiguredFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModConfiguredFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModPlacedFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/ModPlacedFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/TreeGrowers/WillowTreeGrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.20.1-47.2.0-mdk/src/main/java/dev/riley/treesoftheworld/Init/ModItems/TreeGrowers/WillowTreeGrower.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,17 +67,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/riley/Documents/GitHub/TheBoysMod&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "OverrideImplement.generate.javadoc": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/riley/Documents/GitHub/TheBoysMod",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\riley\Documents\GitHub\TreesOfTheWorld\forge-1.20.1-47.2.0-mdk\src\main\resources\Assets\treesoftheworld\textures\block" />

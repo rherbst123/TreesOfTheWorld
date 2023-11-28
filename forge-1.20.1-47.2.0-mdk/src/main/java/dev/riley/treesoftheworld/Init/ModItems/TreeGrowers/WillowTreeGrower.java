@@ -1,5 +1,6 @@
 package dev.riley.treesoftheworld.Init.ModItems.TreeGrowers;
 
+import dev.riley.treesoftheworld.Init.ModItems.ModConfiguredFeatures;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.grower.AbstractTreeGrower;
@@ -11,6 +12,6 @@ public class WillowTreeGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected ResourceKey<ConfiguredFeature<?, ?>> getConfiguredFeature(@NotNull RandomSource randomSource, boolean bool) {
-        return null;
+        return ModConfiguredFeatures.WILLOW;
     }
 }
