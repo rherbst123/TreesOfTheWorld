@@ -19,16 +19,19 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> PLACED_MAPLE = registerKey("placed_maple");
+    public static final ResourceKey<PlacedFeature> PLACED_WILLOW = registerKey("placed_willow");
 
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-
-
         register(context, PLACED_MAPLE, configuredFeatures.getOrThrow(ModConfiguredFeatures.MAPLE),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
                         BlockInit.MAPLE_SAPLING.get()));
+
+        register(context, PLACED_WILLOW, configuredFeatures.getOrThrow(ModConfiguredFeatures.WILLOW),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        BlockInit.WILLOW_SAPLING.get()));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {
