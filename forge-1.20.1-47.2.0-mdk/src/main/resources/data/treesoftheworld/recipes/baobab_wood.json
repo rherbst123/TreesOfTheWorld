@@ -3,11 +3,11 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "treesoftheworld:maple_logs"
+      "tag": "treesoftheworld:baobab_logs"
     }
   ],
   "result": {
-    "item": "treesoftheworld:maple_wood",
+    "item": "treesoftheworld:baobab_wood",
     "count": 4
   }
 }

@@ -48,6 +48,14 @@ public class CreativeTabInit {
                         output.accept(ItemInit.WILLOW_SAPLING.get());
 
 
+                        output.accept(ItemInit.BAOBAB_LOG.get());
+                        output.accept(ItemInit.STRIPPED_BAOBAB_LOG.get());
+                        output.accept(ItemInit.BAOBAB_WOOD.get());
+                        output.accept(ItemInit.BAOBAB_LEAVES.get());
+                        output.accept(ItemInit.BAOBAB_SAPLING.get());
+
+
+
 
                     })
 

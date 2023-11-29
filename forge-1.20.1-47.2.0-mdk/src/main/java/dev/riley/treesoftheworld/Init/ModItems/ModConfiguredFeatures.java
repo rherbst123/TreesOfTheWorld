@@ -44,16 +44,18 @@ import java.util.Optional;
 
 public class ModConfiguredFeatures {
 
-    //Maple key for tree growers
+    // key for tree growers
     public static final ResourceKey<ConfiguredFeature<?, ?>> MAPLE = registerKey("maple");
     public static final ResourceKey<ConfiguredFeature<?, ?>> WILLOW = registerKey("willow");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> BAOBAB = registerKey("baobab");
+
 
     //Configuration
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
 
         HolderGetter<Block> holdergetter = context.lookup(Registries.BLOCK);
 
-
+//MAPLE DO NOT TOUCH USE CONFIGURED FEATURES JSONNNNN
         register(context, MAPLE, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(BlockInit.MAPLE_LOG.get()),
                 //new StraightTrunkPlacer(7, 5, 4),
@@ -65,6 +67,8 @@ public class ModConfiguredFeatures {
                 new TwoLayersFeatureSize(2, 1, 2)).build());
 
 
+
+        //WILLOW DO NOT TOUCH THIS SHIT IS NOT REAL
         register(context, WILLOW, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(BlockInit.WILLOW_LOG.get()),
                 //new StraightTrunkPlacer(7, 5, 4),
@@ -76,6 +80,15 @@ public class ModConfiguredFeatures {
                 new TwoLayersFeatureSize(2, 1, 2)).build());
 
 
+        register(context, BAOBAB, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(BlockInit.BAOBAB_LOG.get()),
+                //new StraightTrunkPlacer(7, 5, 4),
+                new GiantTrunkPlacer(5, 2, 4),
+
+                BlockStateProvider.simple(BlockInit.BAOBAB_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(2), 4),
+
+                new TwoLayersFeatureSize(2, 1, 2)).build());
 
 
     }

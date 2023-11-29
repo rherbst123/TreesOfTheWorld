@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "treesoftheworld:block/baobab_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "treesoftheworld:block/baobab_log"
+    },
+    "axis=z": {
+      "model": "treesoftheworld:block/baobab_log_horizontal",
+      "x": 90
+    }
+  }
+}

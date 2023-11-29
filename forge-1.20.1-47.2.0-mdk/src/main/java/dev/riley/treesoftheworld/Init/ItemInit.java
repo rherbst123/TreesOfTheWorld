@@ -53,6 +53,23 @@ public class ItemInit {
 
     public static final RegistryObject<BlockItem>WILLOW_SAPLING = ITEMS.register("willow_sapling",
             () -> new BlockItem(BlockInit.WILLOW_SAPLING.get(), new Item.Properties()));
+    
+    
+    //baobabstuff
+    public static final RegistryObject<BlockItem>BAOBAB_LOG = ITEMS.register("baobab_log",
+            () -> new BlockItem(BlockInit.BAOBAB_LOG.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>STRIPPED_BAOBAB_LOG = ITEMS.register("stripped_baobab_log",
+            () -> new BlockItem(BlockInit.STRIPPED_BAOBAB_LOG.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>BAOBAB_WOOD = ITEMS.register("baobab_wood",
+            () -> new BlockItem(BlockInit.BAOBAB_WOOD.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>BAOBAB_LEAVES = ITEMS.register("baobab_leaves",
+            () -> new BlockItem(BlockInit.BAOBAB_LEAVES.get(), new Item.Properties()));
+
+    public static final RegistryObject<BlockItem>BAOBAB_SAPLING = ITEMS.register("baobab_sapling",
+            () -> new BlockItem(BlockInit.BAOBAB_SAPLING.get(), new Item.Properties()));
 
 
 

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "treesoftheworld:block/baobab_log_top",
+    "side": "treesoftheworld:block/baobab_log"
+  }
+}

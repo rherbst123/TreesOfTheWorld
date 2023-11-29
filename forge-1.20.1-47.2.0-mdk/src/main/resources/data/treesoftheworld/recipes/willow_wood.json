@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "treesoftheworld:willow_log"
+      "tag": "treesoftheworld:willow_logs"
     }
   ],
   "result": {
@@ -11,3 +11,4 @@
     "count": 4
   }
 }
+
