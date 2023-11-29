@@ -6,7 +6,7 @@
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
       "limit": 5,
-      "lower_size": 3,
+      "lower_size": 5,
       "upper_size": 5
     },
     "dirt_provider": {
