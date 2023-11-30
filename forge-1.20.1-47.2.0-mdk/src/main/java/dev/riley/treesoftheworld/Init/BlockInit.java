@@ -4,6 +4,7 @@ package dev.riley.treesoftheworld.Init;
 import dev.riley.treesoftheworld.Init.ModItems.ModLogItems;
 import dev.riley.treesoftheworld.Init.ModItems.ModPlankItems;
 import dev.riley.treesoftheworld.Init.ModItems.ModSaplingItem;
+import dev.riley.treesoftheworld.Init.ModItems.TreeGrowers.BaobabTreeGrower;
 import dev.riley.treesoftheworld.Init.ModItems.TreeGrowers.MapleTreeGrower;
 import dev.riley.treesoftheworld.Init.ModItems.TreeGrowers.WillowTreeGrower;
 import dev.riley.treesoftheworld.TreesOfTheWorld;
@@ -74,6 +75,8 @@ public class BlockInit extends Block {
 
 
     //Willow Stuff!!
+    //Ok, so I have to do all the shit manually from now on for axe stripping. This is because I dont know how to add more to the 
+    //Mod Log items so Ill just do it here.
     public static final RegistryObject<Block> WILLOW_LOG = BLOCKS.register("willow_log",
             () -> new ModLogItems(Properties.copy(Blocks.OAK_LOG)){
                 @Nullable
@@ -105,15 +108,41 @@ public class BlockInit extends Block {
     public static final RegistryObject<LeavesBlock> WILLOW_LEAVES = BLOCKS.register("willow_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
 
+    //BAOBAB Treeeeeee
+    public static final RegistryObject<Block> BAOBAB_LOG = BLOCKS.register("baobab_log",
+            () -> new ModLogItems(Properties.copy(Blocks.OAK_LOG)){
+                @Nullable
+                @Override
+                public BlockState getToolModifiedState(BlockState state, UseOnContext context, ToolAction toolAction, boolean simulate) {
+                    if (context.getItemInHand().getItem() instanceof AxeItem) {
+                        if (state.is(BlockInit.BAOBAB_LOG.get()  )) {
+                            return BlockInit.STRIPPED_BAOBAB_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+                        }
 
 
 
+                    }
+
+                    return super.getToolModifiedState(state, context, toolAction, simulate);
+                }
+            });
+
+    public static final RegistryObject<Block> STRIPPED_BAOBAB_LOG = BLOCKS.register("stripped_baobab_log",
+            () -> new ModLogItems(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)));
+
+    public static final RegistryObject<Block> BAOBAB_WOOD = BLOCKS.register("baobab_wood",
+            () -> new ModPlankItems(Properties.copy(Blocks.OAK_WOOD)));
+
+    public static final RegistryObject<SaplingBlock> BAOBAB_SAPLING = BLOCKS.register("baobab_sapling",
+            () -> new SaplingBlock(new BaobabTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
+    public static final RegistryObject<LeavesBlock> BAOBAB_LEAVES = BLOCKS.register("baobab_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+    
 
 
-
-    //not sure why i need this but its there
+    //not sure why i need this but its there and it crashes if i dont have it.
     public BlockInit(Properties p_49795_) {
         super(p_49795_);
     }
