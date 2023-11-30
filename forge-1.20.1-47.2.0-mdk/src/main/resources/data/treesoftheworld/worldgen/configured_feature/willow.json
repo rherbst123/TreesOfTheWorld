@@ -1,7 +1,7 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "ignore_vines": true,
+    "ignore_vines": false,
     "force_dirt": false,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
@@ -30,7 +30,7 @@
         "Name": "treesoftheworld:willow_leaves",
         "Properties": {
           "distance": "7",
-          "persistent": "false",
+          "persistent": "true",
           "waterlogged": "false"
         }
       }
@@ -46,11 +46,11 @@
           }
         }
       },
-      "trunk_offset_y": {
+      "k_offset_y": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 2
+          "min_inclusive": 0,
+          "max_inclusive": 1
         }
       },
       "above_root_placement": {
@@ -60,7 +60,7 @@
             "Name": "minecraft:moss_carpet"
           }
         },
-        "above_root_placement_chance": 0.5
+        "above_root_placement_chance": 0.25
       },
       "mangrove_root_placement": {
         "max_root_width": 8,
@@ -84,7 +84,7 @@
     "trunk_placer": {
       "type": "minecraft:upwards_branching_trunk_placer",
       "base_height": 7,
-      "height_rand_a": 3,
+      "height_rand_a": 5,
       "height_rand_b": 9,
       "extra_branch_steps": {
         "type": "minecraft:uniform",
@@ -100,20 +100,20 @@
           "max_inclusive": 3
         }
       },
-      "place_branch_per_log_probability": 0.75,
+      "place_branch_per_log_probability": 0.85,
       "can_grow_through": "#minecraft:mangrove_logs_can_grow_through"
     },
     "foliage_placer": {
       "type": "minecraft:random_spread_foliage_placer",
       "radius": 5,
-      "offset": 0,
-      "foliage_height": 3,
-      "leaf_placement_attempts": 100
+      "offset": 1,
+      "foliage_height": 2,
+      "leaf_placement_attempts": 80
     },
     "decorators": [
       {
         "type": "minecraft:beehive",
-        "probability": 0.01
+        "probability": 0.25
       }
     ]
   }

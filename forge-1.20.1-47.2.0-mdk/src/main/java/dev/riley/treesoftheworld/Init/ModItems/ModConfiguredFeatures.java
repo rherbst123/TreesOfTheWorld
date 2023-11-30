@@ -69,15 +69,9 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.simple(BlockInit.WILLOW_LOG.get()),
                 //new StraightTrunkPlacer(7, 5, 4),
                 new GiantTrunkPlacer(5, 2, 4),
-
                 BlockStateProvider.simple(BlockInit.WILLOW_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(2), 4),
-
                 new TwoLayersFeatureSize(2, 1, 2)).build());
-
-
-
-
     }
 
 
