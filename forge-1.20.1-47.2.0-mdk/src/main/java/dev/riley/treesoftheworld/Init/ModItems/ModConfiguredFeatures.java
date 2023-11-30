@@ -48,6 +48,8 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> MAPLE = registerKey("maple");
     public static final ResourceKey<ConfiguredFeature<?, ?>> WILLOW = registerKey("willow");
 
+    public static final ResourceKey<ConfiguredFeature<?, ?>> BAOBAB = registerKey("baobab");
+
     //Configuration
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
 
@@ -70,6 +72,15 @@ public class ModConfiguredFeatures {
                 //new StraightTrunkPlacer(7, 5, 4),
                 new GiantTrunkPlacer(5, 2, 4),
                 BlockStateProvider.simple(BlockInit.WILLOW_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(2), 4),
+                new TwoLayersFeatureSize(2, 1, 2)).build());
+
+
+        register(context, BAOBAB, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(BlockInit.BAOBAB_LOG.get()),
+                //new StraightTrunkPlacer(7, 5, 4),
+                new GiantTrunkPlacer(5, 2, 4),
+                BlockStateProvider.simple(BlockInit.BAOBAB_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(2), 4),
                 new TwoLayersFeatureSize(2, 1, 2)).build());
     }
